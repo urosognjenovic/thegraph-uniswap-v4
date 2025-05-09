@@ -9,7 +9,7 @@ To run GraphQL queries:
    ```
    cd thegraph-uniswap-v4
    ```
-3. Installed the dependencies:
+3. Install the dependencies:
    ```
    npm install
    ```
