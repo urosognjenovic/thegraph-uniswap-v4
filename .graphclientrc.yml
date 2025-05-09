@@ -1,0 +1,5 @@
+sources:
+  - name: uniswap-v4-ethereum
+    handler:
+      graphql:
+        endpoint: https://gateway.thegraph.com/api/<YOUR_API_KEY>/subgraphs/id/DiYPVdygkfjDWhbxGSqAQxwBKmfKnkWQojqeM2rkLb3G
