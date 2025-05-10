@@ -17,5 +17,5 @@ To run GraphQL queries:
 1. Substitute `<YOUR_API_KEY>` in the `.graphclientrc.yml` file with your API key, which you can create in [Graph Studio](https://thegraph.com/studio/apikeys/).
 2. Run the script: 
    ```
-   node query.js
+   npm run start
    ```

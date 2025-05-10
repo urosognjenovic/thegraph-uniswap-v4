@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node query.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Uroš Ognjenović",
   "license": "ISC",
-  "description": "",
+  "description": "Script for fetching Uniswap v4 data from The Graph using GraphQL.",
   "devDependencies": {
     "@graphprotocol/client-cli": "^3.0.7"
   }
