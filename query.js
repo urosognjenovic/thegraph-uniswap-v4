@@ -22,16 +22,19 @@ const queryTop3ETHUSDCPoolByTotalUSDLocked = `
     pools(
       first: 3, 
       where: {
-        token0: "0x0000000000000000000000000000000000000000"
+        token0: "0x0000000000000000000000000000000000000000",
+        token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
       }, 
       orderBy: totalValueLockedUSD,
       orderDirection: desc
       ) {
       token0 {
+        id,
         name,
         symbol
       }
       token1 {
+        id,
         name,
         symbol
       }
